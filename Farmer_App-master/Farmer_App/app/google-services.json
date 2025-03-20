@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "776192778655",
+    "firebase_url": "https://e-commerce-app-8940a-default-rtdb.firebaseio.com",
+    "project_id": "e-commerce-app-8940a",
+    "storage_bucket": "e-commerce-app-8940a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776192778655:android:78bd706a16e1330138ddaa",
+        "android_client_info": {
+          "package_name": "com.example.e_commerce_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776192778655-13uog94am6chp3j6rt6vtsnvg2rgg4fp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7np0RK62L3T6sqtWqW5z_YC6iO61bWnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776192778655-13uog94am6chp3j6rt6vtsnvg2rgg4fp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776192778655:android:b1e42ba2b556ca8c38ddaa",
+        "android_client_info": {
+          "package_name": "com.example.farmer_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776192778655-13uog94am6chp3j6rt6vtsnvg2rgg4fp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7np0RK62L3T6sqtWqW5z_YC6iO61bWnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776192778655-13uog94am6chp3j6rt6vtsnvg2rgg4fp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/shop"
+        android:title="Detection"
+        android:icon="@drawable/baseline_add_circle_24"
+        />
+
+
+
+    <item
+        android:id="@+id/feedback"
+        android:icon="@drawable/baseline_person_24"
+        android:title="food nutrition"/>
+    <item
+        android:id="@+id/alarm"
+        android:icon="@drawable/baseline_timer_24"
+        android:title="Set Time"/>
+    <item
+        android:id="@+id/showre"
+        android:icon="@drawable/baseline_lock_24"
+        android:title="Upload Video"/>
+
+
+</menu>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:elevation="5dp"
+
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:padding="15dp">
+
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/nametext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:text="This is Demo Name"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/coursetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nametext"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:text="This is Course Name"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/emailtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/coursetext"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:text="This is Email Name"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/coursetext"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="21dp"
+            android:layout_toRightOf="@id/img1"
+            android:text="This is Email Name"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/call"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/address"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+
+            android:src="@drawable/baseline_call_24" />
+
+        <ImageView
+            android:id="@+id/bet"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/address"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="10dp"
+
+            android:src="@drawable/baseline_show_chart_24" />
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Farmer_App"
+        tools:targetApi="31">
+        <activity
+            android:name=".dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Alarm"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".details"
+            android:exported="false" />
+
+        <receiver android:name=".Alarmrecriver" />
+
+        <activity
+            android:name=".ShowOrder"
+            android:exported="true"></activity>
+        <activity
+            android:name=".betting"
+            android:exported="false" />
+        <activity
+            android:name=".ShowLocation"
+            android:exported="false" />
+        <activity
+            android:name=".farmerlocation"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity
+            android:name=".Addproduct"
+            android:exported="true" />
+        <activity
+            android:name=".Home"
+            android:exported="true" />
+        <activity
+            android:name=".splashscreen"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Userregister"
+            android:exported="false" />
+        <activity
+            android:name=".Userlogin"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
